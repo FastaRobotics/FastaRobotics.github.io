@@ -1,35 +1,93 @@
 ---
-title: Home
+title: FASTA Robotics Documentation
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# FASTA Robotics
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Welcome to the official technical documentation of **FASTA Robotics**.
 
-More specifically, the created site:
+FASTA Robotics develops advanced autonomous robotic systems for industrial and research applications.  
+Our current robotic systems include:
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+- Quadruped Robot Platform (Unitree Go2–based system)
+- Autonomous Mobile Robot (Warehouse AMR)
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+This documentation provides complete technical details about system architecture, hardware, software stack, deployment, simulation, and API integrations.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+---
 
-To get started with creating a site, simply:
+## Our Platforms
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+### Quadruped Robot (Go2 Platform)
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+Our quadruped platform is built on the **Unitree Go2** hardware and enhanced with:
 
-----
+- ROS 2–based autonomy stack
+- SLAM and localization
+- 3D perception (LiDAR / RGB-D)
+- Navigation and path planning
+- GPT-based high-level command interface
+- Object detection and tracking
+- Web-based monitoring dashboard
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+👉 See the **Go2 Documentation** section for full details.
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+---
+
+### Warehouse AMR
+
+Our Autonomous Mobile Robot (AMR) is designed for warehouse automation and logistics operations.
+
+Core capabilities:
+
+- ROS 2 (Humble) architecture
+- RTAB-Map / cuda based slam integration
+- Nav2 navigation stack
+- Visual + LiDAR-based perception
+- AprilTag detection
+- Digital twin simulation (Isaac Sim / Gazebo)
+- Remote dashboard control
+
+👉 See the **AMR Documentation** section for system setup and deployment.
+
+---
+
+## System Architecture
+
+Our robotics infrastructure includes:
+
+- ROS 2-based modular architecture
+- Simulation support (Gazebo / Isaac Sim)
+- FastAPI backend services
+- Web dashboard interface
+- rosbridge / roslibpy integration
+- VPN-based secure robot-server communication
+- Digital twin visualization
+
+---
+
+## Documentation Structure
+
+- Getting Started
+- Hardware Setup
+- Software Installation
+- SLAM & Localization
+- Navigation Stack
+- Simulation
+- Dashboard & Web Integration
+- API Reference
+- Deployment Guide
+- Testing & Benchmarking
+
+---
+
+## 👨‍💻 About FASTA Robotics
+
+FASTA Robotics focuses on building scalable, modular, and production-ready robotic systems.  
+Our goal is to provide a unified infrastructure that allows rapid development, testing, and deployment of autonomous robots.
+
+---
+
+For technical questions or collaboration inquiries, please contact the FASTA Robotics engineering team.
