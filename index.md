@@ -32,7 +32,7 @@ Our quadruped platform is built on the **Unitree Go2** hardware and enhanced wit
 - Object detection and tracking
 - Web-based monitoring dashboard
 
-👉 See the **Go2 Documentation** section for full details.
+See the **Go2 Documentation** section for full details.
 
 ---
 
@@ -50,7 +50,7 @@ Core capabilities:
 - Digital twin simulation (Isaac Sim / Gazebo)
 - Remote dashboard control
 
-👉 See the **AMR Documentation** section for system setup and deployment.
+See the **AMR Documentation** section for system setup and deployment.
 
 ---
 
