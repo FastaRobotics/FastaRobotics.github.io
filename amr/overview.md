@@ -2,6 +2,7 @@
 title: Overview
 parent: AMR
 nav_order: 1
+layout: default
 ---
 
 # AMR Overview

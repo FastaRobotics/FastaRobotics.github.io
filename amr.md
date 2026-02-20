@@ -2,6 +2,7 @@
 title: AMR
 has_children: true
 nav_order: 2
+layout: default
 ---
 
 # Warehouse Autonomous Mobile Robot (AMR)
