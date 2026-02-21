@@ -11,4 +11,4 @@ The FASTA Robotics Quadruped platform is designed for patrolling, HSE, and indus
 
 This section provides complete technical documentation of the system including hardware, software stack, SLAM, navigation, simulation, and deployment.
 
-![Quadruped Platform](/assets/images/go2.png)
+<img src="/assets/images/go2.png" alt="Quadruped Platform" height="300">
