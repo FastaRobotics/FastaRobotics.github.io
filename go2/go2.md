@@ -5,8 +5,10 @@ nav_order: 2
 layout: default
 ---
 
-# Warehouse Autonomous Mobile Robot (AMR)
+# Quadruped robot (Unitree Go2 Platform)
 
-The FASTA Robotics AMR platform is designed for warehouse automation, logistics, and industrial autonomy.
+The FASTA Robotics Quadruped platform is designed for patrolling, HSE, and industrial autonomy.
 
 This section provides complete technical documentation of the system including hardware, software stack, SLAM, navigation, simulation, and deployment.
+
+![Quadruped Platform](/assets/images/go2.png)
